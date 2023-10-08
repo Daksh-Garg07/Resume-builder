@@ -1,0 +1,41 @@
+.myimg{
+    width:200px;
+    border-radius: 50%;
+}
+.background{
+    background-color: gainsboro;
+}
+#cv-template{
+    display: none;
+}
+body{
+    /* background-color: rgb(242, 211, 37); */
+    background-image: url("https://cdn.pixabay.com/photo/2021/09/15/15/49/resume-6627200_960_720.jpg");
+}
+label {
+    display: inline-block;
+    color: #000000ab;
+    -webkit-text-stroke: thick;
+}
+.text-secondary {
+    font-size: 22px;
+    --bs-text-opacity: 1;
+    -webkit-text-stroke: medium;
+    text-decoration: underline;
+}
+.btn-group-sm>.btn, .btn-sm {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 3rem;
+    --bs-btn-font-size: 0.875rem;
+    --bs-btn-border-radius: 0.25rem;
+}
+.btn-group-lg>.btn, .btn-lg {
+    --bs-btn-padding-y: 0.5rem;
+    --bs-btn-padding-x: 4.5rem;
+    --bs-btn-font-size: 1.25rem;
+    --bs-btn-border-radius: 0.5rem;
+}
+button:not(:disabled) {
+    cursor: pointer;
+    border: 3px solid black;
+}
